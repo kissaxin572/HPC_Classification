@@ -1,0 +1,3 @@
+LSTM - Accuracy: 0.7157, Precision: 0.8462, Recall: 0.5340, F1-Score: 0.6548, AUC: 0.7457
+Bi-LSTM - Accuracy: 0.7157, Precision: 0.8462, Recall: 0.5340, F1-Score: 0.6548, AUC: 0.7409
+Bi-LSTM + Attention - Accuracy: 0.7304, Precision: 0.9000, Recall: 0.5243, F1-Score: 0.6626, AUC: 0.7318

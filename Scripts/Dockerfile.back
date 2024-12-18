@@ -1,0 +1,40 @@
+# Use Ubuntu 20.04 as the base image
+FROM ubuntu:20.04
+
+# Set environment variable to avoid interactive prompts during package installation
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Update package list and install necessary packages
+RUN apt-get update && apt-get install -y \
+    iputils-ping \
+    curl \
+    wget \
+    net-tools \
+    build-essential \
+    gcc \
+    g++ \
+    make \
+    libssl-dev \
+    libcurl4-openssl-dev \
+    libxml2-dev \
+    zlib1g-dev \
+    libncurses5-dev \
+    libbz2-dev \
+    liblzma-dev \
+    libreadline-dev \
+    libffi-dev \
+    libsqlite3-dev \
+    libgdbm-dev \
+    libdb-dev \
+    libexpat1-dev \
+    libpcap-dev \
+    libpcre3-dev \
+    bzip2 \
+    xz-utils \
+    file \
+    && rm -rf /var/lib/apt/lists/*
+
+# Command to keep the container running
+CMD ["tail", "-f", "/dev/null"]
+
+

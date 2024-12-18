@@ -1,0 +1,42 @@
+
+Logistic Regression 评估结果:
+Accuracy: 0.6043
+Precision: 0.9130
+Recall: 0.2442
+F1-Score: 0.3853
+AUC: 0.7053
+
+SVM 评估结果:
+Accuracy: 0.5807
+Precision: 0.9500
+Recall: 0.1841
+F1-Score: 0.3084
+AUC: 0.7055
+
+KNN 评估结果:
+Accuracy: 0.6841
+Precision: 0.7361
+Recall: 0.5891
+F1-Score: 0.6545
+AUC: 0.7546
+
+Random Forest 评估结果:
+Accuracy: 0.7028
+Precision: 0.8344
+Recall: 0.5174
+F1-Score: 0.6388
+AUC: 0.7526
+
+Decision Tree 评估结果:
+Accuracy: 0.7293
+Precision: 0.9258
+Recall: 0.5078
+F1-Score: 0.6558
+AUC: 0.7473
+
+Naive Bayes 评估结果:
+Accuracy: 0.5856
+Precision: 0.9439
+Recall: 0.1957
+F1-Score: 0.3242
+AUC: 0.5912
